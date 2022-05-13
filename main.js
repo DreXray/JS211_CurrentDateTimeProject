@@ -15,11 +15,29 @@ const displayDate = () => {
  
 
 // Write a JavaScript program to convert a number to a string.
+// let num1 = String(1500);
+// let num2 = String(2000);
+// let sum = num1 + num2;
+
+// let num1 = 1500 .toString();
+// let num2 = 2000 .toString();
+// let sum = num1 + num2; 
+
+let num1 = 1500;
+let string1 = `My string number is ${num1}`;
+
+console.log(string1);
+console.log(typeof string1);
 
 
 
 // Write a JavaScript program to convert a string to the number.
+let num3 = parseInt("1500");
+let num4 = parseInt("2000");
+let sum = (num3 + num4);
 
+console.log(sum);
+console.log(typeof sum);
 
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
@@ -29,10 +47,29 @@ const displayDate = () => {
   // * Number
   // * NaN
   // * String
+
+let datatype = function(thing1){
+  let answer = typeof(thing1);
+
+  console.log(thing1, "is a", answer);
+}
+datatype("John");
+datatype(1991);
+datatype("2022");
+datatype(false);
+datatype(null);
+datatype(undefined);
+datatype(datatype);
+
   
 
   
 // Write a JavaScript program that adds 2 numbers together.
+let num5 = 2000;
+let num6 = 22;
+let sum2 = (num5 + num6);
+
+console.log(sum2);
 
 
 
